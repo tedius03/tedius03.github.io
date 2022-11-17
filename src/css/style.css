@@ -1,0 +1,236 @@
+*{
+	font-family:   'Roboto', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ .img_backgr{
+	position: absolute;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: -1;  
+ }
+
+.name_text{
+	text-align: center;
+}
+
+.name_text_small{
+	font-weight: 600;
+	font-size:28px;
+	color:rgb(14, 14, 100); 
+}
+
+.name_text_big{
+	font-size:50px;
+color:#E2A126!important;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+
+.contact{
+	text-align: center;
+}
+
+.Title_text{
+	font-size:50px;
+color:#E2A126!important;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+.block_text{
+	font-size:28px;
+	color:rgb(14, 14, 100); 
+}
+
+.number{
+  text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(3, 3, 143)
+}
+
+.block{
+	width: 450px;
+	height: 200px;
+	padding: 20px;
+	margin: 10px 30px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	color: rgb(26, 26, 165);
+}
+
+.block_icon{
+	display: flex;
+	justify-content: center;
+}
+
+.nav_bar{
+margin: 20px;
+	font-weight: 600;
+	font-size: 20px;    
+}
+
+
+body {
+	 zoom: 80%;
+	background: url(/src/img/bg1sheel.jpg) no-repeat fixed center;
+
+	background-size: 100%;
+	min-height: 1300px; /* Современные браузеры */
+   }
+
+   .text_1{
+	margin: 10px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(26, 26, 165);
+   }
+
+   .text_main{
+	padding: 20px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(1, 1, 24);
+	background-color: rgb(233, 255, 255);
+   }
+
+   .promo_main_text{
+	margin: 25px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	color: rgb(26, 26, 165);
+   }
+   
+   
+   .serv_ico{
+	background-color: aliceblue;
+	text-align: center;
+   }
+
+   
+   
+   .text_ico{
+	text-align: center;
+	font-size:30px;
+	color:#d88f06!important;
+	text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-1px 0 1px #000, 
+	0 -1px 1px #000;
+   }
+
+ 
+
+
+.serves_text{
+	margin: 15px auto;
+	padding: 20px;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(2, 2, 74);
+	background-color: rgb(233, 255, 255);
+}
+
+.serves_text2{
+	font-size:30px;
+	color:rgb(49, 49, 248);
+	text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-1px 0 1px #000, 
+	0 -1px 1px #000;
+}
+
+
+
+.textcols-item{
+  text-align:left;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(0, 0, 77);
+  background-color: rgb(233, 255, 255)
+}
+
+
+.dropdown-item{
+	font-size: 20px;
+}
+
+
+
+.tz-gallery{
+	background-color:none;
+}
+
+.gallery-container h1 {
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 10px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.footer{
+	background-color: rgb(122, 71, 12);
+	padding: 20px;
+	margin-top: 20px;
+	color: rgb(8, 107, 255);
+	text-align: center;
+}  
